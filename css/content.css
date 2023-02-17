@@ -1,0 +1,149 @@
+.info {
+  height: 100.772vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.info .info__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 10px;
+}
+.info .info__block .info__block_text {
+  font-size: 1.875vw;
+  line-height: 2.24vw;
+  text-align: center;
+  margin-left: -150px;
+  opacity: 0;
+}
+.info .info__block .info__block_img {
+  width: 20.833vw;
+  height: 20.833vw;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  opacity: 0;
+}
+.info .info__block .info__block_img .info__img {
+  width: 120%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.info .info__block .info__block_img .info__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.interior, .fruitful {
+  padding-bottom: 3.646vw;
+  padding-top: 3.646vw;
+  text-align: center;
+}
+.interior h1, .fruitful h1 {
+  margin: 0 0 3.646vw 0;
+  font-size: 2.5vw;
+}
+
+.modal__block {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal__block .modal__text {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+}
+.modal__block .modal__text h1 {
+  color: black;
+}
+
+.fruitful {
+  padding-bottom: 3.646vw;
+}
+
+.carousel-item {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+}
+
+.feedback {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2.604vw;
+}
+.feedback h1 {
+  margin-bottom: 2.604vw;
+  font-size: 2.5vw;
+}
+.feedback input, .feedback textarea {
+  width: 100%;
+  outline: 0;
+}
+.feedback input {
+  text-align: center;
+}
+.feedback .feedback__initials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2.604vw;
+}
+.feedback .feedback__initials .feedback__name, .feedback .feedback__initials .feedback__surname {
+  width: 48%;
+}
+.feedback .feedback__email {
+  margin-bottom: 2.604vw;
+}
+.feedback .feedback__message {
+  margin-bottom: 2.604vw;
+}
+.feedback .feedback__message textarea {
+  resize: none;
+  overflow: auto;
+  height: 300px;
+}
+.feedback a {
+  padding: 8px 28px 8px 28px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  border-radius: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.042vw;
+}
+.feedback a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
